@@ -190,7 +190,6 @@ void PhoneBook::SearchAbonent()
 	char name[255];
 	system("cls");
 	cout << "Введите ФИО абонента, которую хотите найти: ";
-	cin.ignore();
 	cin.getline(name, 255);
 	for (int i = 0; i < size; i++)
 	{
